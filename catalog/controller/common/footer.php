@@ -2,9 +2,17 @@
 class ControllerCommonFooter extends Controller {
 	public function index() {
 		$this->load->language('common/footer');
-
-		$data['scripts'] = $this->document->getScripts('footer');
-
+    
+    //Мои скрипты
+    $this->document->addScript('catalog/view/theme/okoshko/js/jquery-3.1.1.min.js', 'footer');
+    $this->document->addScript('catalog/view/theme/okoshko/js/bootstrap.min.js', 'footer');
+    $this->document->addScript('catalog/view/theme/okoshko/js/jquery.maskedinput.js', 'footer');
+    $this->document->addScript('catalog/view/theme/okoshko/js/func.js', 'footer');
+    $this->document->addScript('catalog/view/theme/okoshko/js/main.js', 'footer');
+    $this->document->addScript('catalog/view/theme/okoshko/js/pushy.min.js', 'footer');    
+    
+    $data['scripts'] = $this->document->getScripts('footer');
+    
 		$data['text_information'] = $this->language->get('text_information');
 		$data['text_service'] = $this->language->get('text_service');
 		$data['text_extra'] = $this->language->get('text_extra');

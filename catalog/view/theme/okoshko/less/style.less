@@ -1,0 +1,248 @@
+@baseColor: #289dcc;
+@baseColorDarked: #005BA6;
+@colorRed: #E7501E;
+@bodyColor: #f5f5f5;
+@borderTilesColor: #CCCCCC;
+
+@font-face {
+		font-family: 'Open Sans Condensed', sans-serif;
+		src: url("/fonts/OpenSansCondensed-Light.ttf");
+}
+
+@font-face {
+		font-family: 'Open Sans Condensed', sans-serif;
+		src: url("/fonts/OpenSansCondensed-Bold.ttf");
+}
+
+ul, li, span {
+		margin: 0;
+		padding: 0;
+}
+
+body {
+		background-color: #f5f5f5;
+}
+
+a {
+		text-decoration: none;	
+}
+
+a:hover {
+		text-decoration: none;	
+}
+
+.container-fluid {
+		padding-left: 50px;
+		padding-right: 50px;
+}
+
+.header-wrap {
+		padding-top: 10px;
+		padding-bottom: 15px;
+}
+
+.logo {
+		&__img {
+				vertical-align: baseline;
+		}
+}
+
+.company-name {
+		display: inline-block;
+		vertical-align: baseline;
+		margin-left: 5px;
+		&__title {
+				font-size: 42px;
+				font-family: 'Open Sans', sans-serif;
+				color: @baseColor;		
+		}
+		&__subtitle {
+				font-size: 24px;
+				font-weight: 600;
+				color: @baseColor;	
+		}
+}
+
+.auth {
+		&__enter-img {
+				vertical-align: baseline;
+		}
+}
+
+.cart {
+		&__quantity {
+				display: inline-block;
+				font-size: 22px;
+				vertical-align: middle;
+				color: @colorRed;
+				font-weight: 600;
+		}
+		&__text {
+				display: inline-block;
+				vertical-align: middle;
+		}
+}
+
+.connections {
+		&__phone-text {
+				font-size: 22px;
+		}
+		&__whatsapp-icon,
+		&__viber-icon, 
+		&__telegram-icon,
+		&__phone-icon {
+				vertical-align: middle;	
+		}
+		&__phone-text {
+				vertical-align: middle;	
+				display: inline-block;
+		}
+}
+
+.menu-wrap {
+		margin-top: 15px;
+}
+
+.menu {
+		background: @baseColorDarked;
+		padding-top: 5px;
+		padding-bottom: 8px;
+		&__item {
+				color: white;
+		}
+		&__btn-dropdown {
+				background-color: transparent;
+				color: white;
+		}
+		&__nav-link {
+				color: white;
+		}
+		&__nav-link:hover,
+		&__btn-dropdown:hover {
+				color: yellow;
+		}
+		&__btn-dropdown:focus {
+				box-shadow: none;
+		}
+}
+
+.dropdown-menu {
+		padding: 0;
+		border-radius: 0;
+		&__divider {
+				margin: 0;
+		}
+		&__item {
+				padding-top: 10px;
+				padding-bottom: 10px;
+		}
+}
+
+.tile-row {
+		margin-top: 25px;
+}
+
+.tile {
+		display: block;
+		width: 23%;
+		border: 1px solid @borderTilesColor;
+		background: white;
+		padding: 10px;
+		cursor: pointer;
+		margin-bottom: 2.6%;
+		-webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+		-moz-box-shadow:    7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+		box-shadow:         7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+		&__img {
+				width: 100%;
+		}
+		&__link-content {
+				padding-top: 10px;
+				padding-bottom: 2px;
+		}
+		&__link {
+				font-weight: 600;
+		}
+}
+
+.tile:hover {
+	-webkit-box-shadow: 7px 7px 5px 0px rgba(49, 50, 116, 0.75);
+	-moz-box-shadow:    7px 7px 5px 0px rgba(49, 50, 116, 0.75);
+	box-shadow:         7px 7px 5px 0px rgba(49, 50, 116, 0.75);
+}
+
+.tile-wrap {
+		justify-content: space-between;
+		&__title-mob {
+				font-size: 24px;
+				color: @baseColor;
+				margin-top: 20px;
+		}
+}
+
+.tile-row {
+		&__fake-dot {
+				color: white;
+		}
+}
+
+
+@media screen and (max-device-width: 991px) {
+		.container-fluid {
+				padding-left: 15px;
+				padding-right: 15px;
+		}
+		.tile-wrap {
+				justify-content: center;
+		}
+		.tile {
+				margin-top: 25px;
+				width: 80%;				
+		}
+		.tile-row {
+				margin-top: 0;
+		}
+}
+
+@media screen and (min-device-width: 320px) {
+}
+
+@media screen and (min-device-width: 360px) {
+
+}
+
+@media screen and (min-device-width: 480px) {	
+}
+
+@media screen and (min-device-width: 576px) {	
+}
+
+@media screen and (min-device-width: 768px)
+							and (max-device-width: 991px) {
+	.tile-wrap {
+			justify-content: space-between;
+			&__title-mob {
+					margin-bottom: 25px;
+			}
+	}
+	.tile {
+			width: 49%;	
+			margin-top: 0;		
+	}
+}
+
+@media screen and (min-device-width: 768px) 
+							and (max-device-width: 991px) and (orientation:landscape){
+}
+
+@media screen and (min-device-width: 768px) 
+							and (max-device-width: 991px) and (orientation:portrait) {
+}
+
+@media screen and (min-device-width: 992px) {	
+
+}
+
+@media screen and (min-device-width: 1200px) {	
+
+}

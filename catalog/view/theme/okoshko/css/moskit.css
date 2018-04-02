@@ -1,0 +1,127 @@
+.rest-content-wrap h1 {
+	margin-bottom: 40px;
+	margin-top: 10px;
+	color: #005BA6;
+	font-size: 32px;
+}
+
+#net-calc .quest-section {
+	margin-bottom: 30px;
+}
+
+#net-calc .quest-section label {
+	font-weight: bold;
+}
+
+#net-calc button[type="button"] {
+	margin-bottom: 30px;
+}
+
+#net-calc input[type="text"],
+#net-calc input[type="number"] {
+	width: 75%;
+}
+
+#net-calc .min-max-text {
+	font-size: 12px;
+	font-weight: normal;
+}
+
+#wrong-width-height {
+	margin-top: -15px;
+	margin-bottom: 25px;
+}
+
+#net-calc #person-name-wrap,
+#net-calc #person-phone-wrap {
+	color: #005BA6;
+}
+
+#net-calc #btn-submit,
+#net-calc #btn-add-cart-mosk {
+	margin-bottom: 70px;
+}
+
+#net-calc #btn-add-cart-mosk {
+	margin-right: 10px;
+}
+
+#net-calc #agreement-wrap {
+	margin-bottom: 30px;
+	font-size: 14px;
+}
+
+table td img:hover {
+	cursor: pointer;
+} 
+
+@media screen and (max-device-width: 991px) {
+	.rest-content-wrap h1 {
+		margin-top: 20px;
+		color: #289dcc;
+		font-weight: bold;
+		font-size: 18px;
+		margin-bottom: 20px;
+	}
+	#net-calc button[type="button"] {
+		margin-bottom: 60px;
+	}
+}
+
+@media screen and (min-device-width: 320px)
+							and (max-device-width: 767px) {
+	.table th,
+	.table td {
+		padding-left: 5px;
+		padding-right: 5px;
+		font-size: 11px;
+	}
+
+}
+
+@media screen and (min-device-width: 360px)
+							and (max-device-width: 767px) {
+	.table th,
+	.table td {
+		font-size: 12px;
+	}
+
+}
+
+@media screen and (min-device-width: 480px) 
+							and (max-device-width: 767px) {	
+	.table th,
+	.table td {
+		font-size: 14px;
+	}
+
+}
+
+@media screen and (min-device-width: 576px) 
+							and (max-device-width: 767px) {	
+
+}
+
+@media screen and (min-device-width: 768px) 
+							and (max-device-width: 991px) and (orientation:landscape) {
+
+}
+
+@media screen and (min-device-width: 768px) 
+							and (max-device-width: 991px) and (orientation:portrait) {
+
+}
+
+@media screen and (min-device-width: 992px) {	
+	#net-calc .container-fluid {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+}
+
+@media screen and (min-device-width: 1200px) {	
+
+
+}
+

@@ -23,7 +23,13 @@ class ControllerCommonHeader extends Controller {
 		if (is_file(DIR_IMAGE . $this->config->get('config_icon'))) {
 			$this->document->addLink($server . 'image/' . $this->config->get('config_icon'), 'icon');
 		}
-
+		
+		// Мои стили
+		$this->document->addStyle('catalog/view/theme/okoshko/css/bootstrap.min.css');
+		$this->document->addStyle('catalog/view/theme/okoshko/css/style.css');
+		$this->document->addStyle('catalog/view/theme/okoshko/css/moskit.css');
+		$this->document->addStyle('catalog/view/theme/okoshko/css/pushy.css');		
+	
 		$data['title'] = $this->document->getTitle();
 
 		$data['base'] = $server;
@@ -58,20 +64,20 @@ class ControllerCommonHeader extends Controller {
 			$data['text_wishlist'] = sprintf($this->language->get('text_wishlist'), (isset($this->session->data['wishlist']) ? count($this->session->data['wishlist']) : 0));
 		}
 
-		$data['text_shopping_cart'] = $this->language->get('text_shopping_cart');
-		$data['text_logged'] = sprintf($this->language->get('text_logged'), $this->url->link('account/account', '', true), $this->customer->getFirstName(), $this->url->link('account/logout', '', true));
-
-		$data['text_account'] = $this->language->get('text_account');
-		$data['text_register'] = $this->language->get('text_register');
-		$data['text_login'] = $this->language->get('text_login');
-		$data['text_order'] = $this->language->get('text_order');
-		$data['text_transaction'] = $this->language->get('text_transaction');
-		$data['text_download'] = $this->language->get('text_download');
-		$data['text_logout'] = $this->language->get('text_logout');
-		$data['text_checkout'] = $this->language->get('text_checkout');
-		$data['text_page'] = $this->language->get('text_page');
-		$data['text_category'] = $this->language->get('text_category');
-		$data['text_all'] = $this->language->get('text_all');
+//		$data['text_shopping_cart'] = $this->language->get('text_shopping_cart');
+//		$data['text_logged'] = sprintf($this->language->get('text_logged'), $this->url->link('account/account', '', true), $this->customer->getFirstName(), $this->url->link('account/logout', '', true));
+//
+//		$data['text_account'] = $this->language->get('text_account');
+//		$data['text_register'] = $this->language->get('text_register');
+//		$data['text_login'] = $this->language->get('text_login');
+//		$data['text_order'] = $this->language->get('text_order');
+//		$data['text_transaction'] = $this->language->get('text_transaction');
+//		$data['text_download'] = $this->language->get('text_download');
+//		$data['text_logout'] = $this->language->get('text_logout');
+//		$data['text_checkout'] = $this->language->get('text_checkout');
+//		$data['text_page'] = $this->language->get('text_page');
+//		$data['text_category'] = $this->language->get('text_category');
+//		$data['text_all'] = $this->language->get('text_all');
 
 		$data['home'] = $this->url->link('common/home');
 		$data['wishlist'] = $this->url->link('account/wishlist', '', true);
