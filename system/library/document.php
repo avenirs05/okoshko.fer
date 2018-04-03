@@ -7,6 +7,7 @@ class Document {
 	private $styles = array();
 	private $scripts = array();
 	private $og_image;
+//  private $theme_dir;
 
 	public function setTitle($title) {
 		$this->title = $title;
@@ -74,4 +75,9 @@ class Document {
 	public function getOgImage() {
 		return $this->og_image;
 	}
+  
+//  public function getThemeDir() {
+//    return $this->theme_dir;
+//  }
+
 }

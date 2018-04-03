@@ -18,6 +18,9 @@ define('DIR_LOGS', 'C:/Users/Lenovo_note/Documents/OpenServer/domains/okoshko.re
 define('DIR_MODIFICATION', 'C:/Users/Lenovo_note/Documents/OpenServer/domains/okoshko.ref/system/storage/modification/');
 define('DIR_UPLOAD', 'C:/Users/Lenovo_note/Documents/OpenServer/domains/okoshko.ref/system/storage/upload/');
 
+// Мой код. Название моей темы
+define('DIR_ACT_THEME', 'catalog/view/theme/okoshko/');
+
 // DB
 define('DB_DRIVER', 'mysqli');
 define('DB_HOSTNAME', 'localhost');

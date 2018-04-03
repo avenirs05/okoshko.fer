@@ -1,7 +1,10 @@
 <?php
 class ControllerCommonContentTop extends Controller {
 	public function index() {
-		$this->load->model('design/layout');
+    // Мой код. Путь до папки с актуальной темой
+    $data['theme_dir'] = '/catalog/view/theme/' . $this->config->get('theme_default_directory') . '/';
+
+    $this->load->model('design/layout');
 
 		if (isset($this->request->get['route'])) {
 			$route = (string)$this->request->get['route'];

@@ -1,11 +1,12 @@
 <?php
 class ControllerCommonHeader extends Controller {
 	public function index() {
-		// Analytics
+    
+    // Analytics
 		$this->load->model('extension/extension');
 
 		$data['analytics'] = array();
-
+    
 		$analytics = $this->model_extension_extension->getExtensions('analytics');
 
 		foreach ($analytics as $analytic) {
@@ -13,22 +14,22 @@ class ControllerCommonHeader extends Controller {
 				$data['analytics'][] = $this->load->controller('extension/analytics/' . $analytic['code'], $this->config->get($analytic['code'] . '_status'));
 			}
 		}
+        
+    if (isset($this->request->server['HTTPS']) && (($this->request->server['HTTPS'] == 'on') || ($this->request->server['HTTPS'] == '1'))) {
+      $server = $this->config->get('config_ssl');
+    } else {
+      $server = $this->config->get('config_url');
+    }
 
-		if (isset($this->request->server['HTTPS']) && (($this->request->server['HTTPS'] == 'on') || ($this->request->server['HTTPS'] == '1'))) {
-			$server = $this->config->get('config_ssl');
-		} else {
-			$server = $this->config->get('config_url');
-		}
-
-		if (is_file(DIR_IMAGE . $this->config->get('config_icon'))) {
+    if (is_file(DIR_IMAGE . $this->config->get('config_icon'))) {
 			$this->document->addLink($server . 'image/' . $this->config->get('config_icon'), 'icon');
 		}
-		
+
 		// Мои стили
-		$this->document->addStyle('catalog/view/theme/okoshko/css/bootstrap.min.css');
-		$this->document->addStyle('catalog/view/theme/okoshko/css/style.css');
-		$this->document->addStyle('catalog/view/theme/okoshko/css/moskit.css');
-		$this->document->addStyle('catalog/view/theme/okoshko/css/pushy.css');		
+		$this->document->addStyle(DIR_ACT_THEME . 'css/bootstrap.min.css');
+		$this->document->addStyle(DIR_ACT_THEME . 'css/style.css');
+		$this->document->addStyle(DIR_ACT_THEME . 'css/moskit.css');
+		$this->document->addStyle(DIR_ACT_THEME . 'css/pushy.css');		
 	
 		$data['title'] = $this->document->getTitle();
 
@@ -154,7 +155,8 @@ class ControllerCommonHeader extends Controller {
 			$data['class'] = str_replace('/', '-', $this->request->get['route']) . $class;
 		} else {
 			$data['class'] = 'common-home';
-		}
+		}  
+   
 
 		return $this->load->view('common/header', $data);
 	}

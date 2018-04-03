@@ -1,15 +1,15 @@
 <?php
 class ControllerCommonFooter extends Controller {
 	public function index() {
-		$this->load->language('common/footer');
+    $this->load->language('common/footer');
     
     //Мои скрипты
-    $this->document->addScript('catalog/view/theme/okoshko/js/jquery-3.1.1.min.js', 'footer');
-    $this->document->addScript('catalog/view/theme/okoshko/js/bootstrap.min.js', 'footer');
-    $this->document->addScript('catalog/view/theme/okoshko/js/jquery.maskedinput.js', 'footer');
-    $this->document->addScript('catalog/view/theme/okoshko/js/func.js', 'footer');
-    $this->document->addScript('catalog/view/theme/okoshko/js/main.js', 'footer');
-    $this->document->addScript('catalog/view/theme/okoshko/js/pushy.min.js', 'footer');    
+    $this->document->addScript(DIR_ACT_THEME . 'js/jquery-3.1.1.min.js', 'footer');
+    $this->document->addScript(DIR_ACT_THEME . 'js/bootstrap.min.js', 'footer');
+    $this->document->addScript(DIR_ACT_THEME . 'js/jquery.maskedinput.js', 'footer');
+    $this->document->addScript(DIR_ACT_THEME . 'js/func.js', 'footer');
+    $this->document->addScript(DIR_ACT_THEME . 'js/main.js', 'footer');
+    $this->document->addScript(DIR_ACT_THEME . 'js/pushy.min.js', 'footer');    
     
     $data['scripts'] = $this->document->getScripts('footer');
     
