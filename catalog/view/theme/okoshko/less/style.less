@@ -172,12 +172,15 @@ a:hover {
 }
 
 .tile-wrap {
-		justify-content: space-between;
 		&__title-mob {
 				font-size: 24px;
 				color: @baseColor;
 				margin-top: 20px;
 		}
+}
+
+.tile-content {
+		justify-content: space-between;
 }
 
 .tile-row {
@@ -192,7 +195,7 @@ a:hover {
 				padding-left: 15px;
 				padding-right: 15px;
 		}
-		.tile-wrap {
+		.tile-content {
 				justify-content: center;
 		}
 		.tile {
@@ -219,8 +222,10 @@ a:hover {
 
 @media screen and (min-device-width: 768px)
 							and (max-device-width: 991px) {
+	.tile-content {
+			justify-content: space-between;			
+	}
 	.tile-wrap {
-			justify-content: space-between;
 			&__title-mob {
 					margin-bottom: 25px;
 			}
@@ -240,7 +245,10 @@ a:hover {
 }
 
 @media screen and (min-device-width: 992px) {	
-
+		.tile-fix-space-between {
+				margin-right: auto;
+				margin-left: 2.65%; 
+		}
 }
 
 @media screen and (min-device-width: 1200px) {	

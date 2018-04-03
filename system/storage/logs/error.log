@@ -103,3 +103,145 @@
 2018-04-03 2:37:35 - PHP Notice:  Undefined variable: config in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\controller\common\home.php on line 11
 2018-04-03 2:45:52 - PHP Notice:  Undefined variable: data in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\controller\common\content_top.php on line 6
 2018-04-03 2:45:53 - PHP Notice:  Undefined variable: data in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\controller\common\content_top.php on line 6
+2018-04-03 18:22:37 - PHP Notice:  Undefined index: category in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\controller\common\header.php on line 161
+2018-04-03 18:22:37 - PHP Notice:  Undefined variable: direction in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 3
+2018-04-03 18:22:37 - PHP Notice:  Undefined variable: lang in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 3
+2018-04-03 18:22:37 - PHP Notice:  Undefined variable: direction in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 4
+2018-04-03 18:22:37 - PHP Notice:  Undefined variable: lang in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 4
+2018-04-03 18:22:37 - PHP Notice:  Undefined variable: direction in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 6
+2018-04-03 18:22:37 - PHP Notice:  Undefined variable: lang in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 6
+2018-04-03 18:22:37 - PHP Notice:  Undefined variable: title in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 12
+2018-04-03 18:22:37 - PHP Notice:  Undefined variable: base in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 13
+2018-04-03 18:22:37 - PHP Notice:  Undefined variable: description in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 14
+2018-04-03 18:22:37 - PHP Notice:  Undefined variable: keywords in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 17
+2018-04-03 18:22:37 - PHP Notice:  Undefined variable: title in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 20
+2018-04-03 18:22:37 - PHP Notice:  Undefined variable: og_url in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 22
+2018-04-03 18:22:37 - PHP Notice:  Undefined variable: og_image in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 23
+2018-04-03 18:22:37 - PHP Notice:  Undefined variable: logo in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 26
+2018-04-03 18:22:37 - PHP Notice:  Undefined variable: name in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 28
+2018-04-03 18:22:37 - PHP Notice:  Undefined variable: styles in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 29
+2018-04-03 18:22:37 - PHP Warning:  Invalid argument supplied for foreach() in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 29
+2018-04-03 18:22:37 - PHP Notice:  Undefined variable: links in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 32
+2018-04-03 18:22:37 - PHP Warning:  Invalid argument supplied for foreach() in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 32
+2018-04-03 18:22:37 - PHP Notice:  Undefined variable: analytics in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 35
+2018-04-03 18:22:37 - PHP Warning:  Invalid argument supplied for foreach() in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 35
+2018-04-03 18:22:48 - PHP Notice:  Undefined variable: direction in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 3
+2018-04-03 18:22:48 - PHP Notice:  Undefined variable: lang in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 3
+2018-04-03 18:22:48 - PHP Notice:  Undefined variable: direction in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 4
+2018-04-03 18:22:48 - PHP Notice:  Undefined variable: lang in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 4
+2018-04-03 18:22:48 - PHP Notice:  Undefined variable: direction in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 6
+2018-04-03 18:22:48 - PHP Notice:  Undefined variable: lang in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 6
+2018-04-03 18:22:48 - PHP Notice:  Undefined variable: title in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 12
+2018-04-03 18:22:48 - PHP Notice:  Undefined variable: base in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 13
+2018-04-03 18:22:48 - PHP Notice:  Undefined variable: description in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 14
+2018-04-03 18:22:48 - PHP Notice:  Undefined variable: keywords in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 17
+2018-04-03 18:22:48 - PHP Notice:  Undefined variable: title in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 20
+2018-04-03 18:22:48 - PHP Notice:  Undefined variable: og_url in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 22
+2018-04-03 18:22:48 - PHP Notice:  Undefined variable: og_image in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 23
+2018-04-03 18:22:48 - PHP Notice:  Undefined variable: logo in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 26
+2018-04-03 18:22:48 - PHP Notice:  Undefined variable: name in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 28
+2018-04-03 18:22:48 - PHP Notice:  Undefined variable: styles in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 29
+2018-04-03 18:22:48 - PHP Warning:  Invalid argument supplied for foreach() in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 29
+2018-04-03 18:22:48 - PHP Notice:  Undefined variable: links in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 32
+2018-04-03 18:22:48 - PHP Warning:  Invalid argument supplied for foreach() in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 32
+2018-04-03 18:22:48 - PHP Notice:  Undefined variable: analytics in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 35
+2018-04-03 18:22:48 - PHP Warning:  Invalid argument supplied for foreach() in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 35
+2018-04-03 18:24:15 - PHP Notice:  Undefined variable: direction in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 3
+2018-04-03 18:24:15 - PHP Notice:  Undefined variable: lang in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 3
+2018-04-03 18:24:15 - PHP Notice:  Undefined variable: direction in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 4
+2018-04-03 18:24:15 - PHP Notice:  Undefined variable: lang in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 4
+2018-04-03 18:24:15 - PHP Notice:  Undefined variable: direction in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 6
+2018-04-03 18:24:15 - PHP Notice:  Undefined variable: lang in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 6
+2018-04-03 18:24:15 - PHP Notice:  Undefined variable: title in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 12
+2018-04-03 18:24:15 - PHP Notice:  Undefined variable: base in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 13
+2018-04-03 18:24:15 - PHP Notice:  Undefined variable: description in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 14
+2018-04-03 18:24:15 - PHP Notice:  Undefined variable: keywords in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 17
+2018-04-03 18:24:15 - PHP Notice:  Undefined variable: title in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 20
+2018-04-03 18:24:15 - PHP Notice:  Undefined variable: og_url in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 22
+2018-04-03 18:24:15 - PHP Notice:  Undefined variable: og_image in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 23
+2018-04-03 18:24:15 - PHP Notice:  Undefined variable: logo in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 26
+2018-04-03 18:24:15 - PHP Notice:  Undefined variable: name in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 28
+2018-04-03 18:24:15 - PHP Notice:  Undefined variable: styles in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 29
+2018-04-03 18:24:15 - PHP Warning:  Invalid argument supplied for foreach() in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 29
+2018-04-03 18:24:15 - PHP Notice:  Undefined variable: links in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 32
+2018-04-03 18:24:15 - PHP Warning:  Invalid argument supplied for foreach() in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 32
+2018-04-03 18:24:15 - PHP Notice:  Undefined variable: analytics in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 35
+2018-04-03 18:24:15 - PHP Warning:  Invalid argument supplied for foreach() in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 35
+2018-04-03 18:25:14 - PHP Notice:  Undefined variable: direction in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 3
+2018-04-03 18:25:14 - PHP Notice:  Undefined variable: lang in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 3
+2018-04-03 18:25:14 - PHP Notice:  Undefined variable: direction in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 4
+2018-04-03 18:25:14 - PHP Notice:  Undefined variable: lang in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 4
+2018-04-03 18:25:14 - PHP Notice:  Undefined variable: direction in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 6
+2018-04-03 18:25:14 - PHP Notice:  Undefined variable: lang in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 6
+2018-04-03 18:25:14 - PHP Notice:  Undefined variable: title in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 12
+2018-04-03 18:25:14 - PHP Notice:  Undefined variable: base in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 13
+2018-04-03 18:25:14 - PHP Notice:  Undefined variable: description in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 14
+2018-04-03 18:25:14 - PHP Notice:  Undefined variable: keywords in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 17
+2018-04-03 18:25:14 - PHP Notice:  Undefined variable: title in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 20
+2018-04-03 18:25:14 - PHP Notice:  Undefined variable: og_url in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 22
+2018-04-03 18:25:14 - PHP Notice:  Undefined variable: og_image in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 23
+2018-04-03 18:25:14 - PHP Notice:  Undefined variable: logo in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 26
+2018-04-03 18:25:14 - PHP Notice:  Undefined variable: name in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 28
+2018-04-03 18:25:14 - PHP Notice:  Undefined variable: styles in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 29
+2018-04-03 18:25:14 - PHP Warning:  Invalid argument supplied for foreach() in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 29
+2018-04-03 18:25:14 - PHP Notice:  Undefined variable: links in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 32
+2018-04-03 18:25:14 - PHP Warning:  Invalid argument supplied for foreach() in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 32
+2018-04-03 18:25:14 - PHP Notice:  Undefined variable: analytics in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 35
+2018-04-03 18:25:14 - PHP Warning:  Invalid argument supplied for foreach() in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 35
+2018-04-03 18:25:23 - PHP Notice:  Undefined variable: direction in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 3
+2018-04-03 18:25:23 - PHP Notice:  Undefined variable: lang in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 3
+2018-04-03 18:25:23 - PHP Notice:  Undefined variable: direction in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 4
+2018-04-03 18:25:23 - PHP Notice:  Undefined variable: lang in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 4
+2018-04-03 18:25:23 - PHP Notice:  Undefined variable: direction in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 6
+2018-04-03 18:25:23 - PHP Notice:  Undefined variable: lang in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 6
+2018-04-03 18:25:23 - PHP Notice:  Undefined variable: title in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 12
+2018-04-03 18:25:23 - PHP Notice:  Undefined variable: base in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 13
+2018-04-03 18:25:23 - PHP Notice:  Undefined variable: description in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 14
+2018-04-03 18:25:23 - PHP Notice:  Undefined variable: keywords in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 17
+2018-04-03 18:25:23 - PHP Notice:  Undefined variable: title in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 20
+2018-04-03 18:25:23 - PHP Notice:  Undefined variable: og_url in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 22
+2018-04-03 18:25:23 - PHP Notice:  Undefined variable: og_image in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 23
+2018-04-03 18:25:23 - PHP Notice:  Undefined variable: logo in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 26
+2018-04-03 18:25:23 - PHP Notice:  Undefined variable: name in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 28
+2018-04-03 18:25:23 - PHP Notice:  Undefined variable: styles in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 29
+2018-04-03 18:25:23 - PHP Warning:  Invalid argument supplied for foreach() in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 29
+2018-04-03 18:25:23 - PHP Notice:  Undefined variable: links in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 32
+2018-04-03 18:25:23 - PHP Warning:  Invalid argument supplied for foreach() in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 32
+2018-04-03 18:25:23 - PHP Notice:  Undefined variable: analytics in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 35
+2018-04-03 18:25:23 - PHP Warning:  Invalid argument supplied for foreach() in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\header.tpl on line 35
+2018-04-03 21:22:16 - PHP Notice:  Undefined variable: category in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\content_top.tpl on line 18
+2018-04-03 21:22:16 - PHP Notice:  Undefined variable: category in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\content_top.tpl on line 18
+2018-04-03 21:23:36 - PHP Notice:  Undefined variable: category in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\content_top.tpl on line 18
+2018-04-03 21:23:36 - PHP Notice:  Undefined variable: category in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\content_top.tpl on line 18
+2018-04-03 23:50:01 - PHP Notice:  Undefined variable: category in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\content_top.tpl on line 18
+2018-04-03 23:50:01 - PHP Notice:  Undefined variable: category in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\content_top.tpl on line 18
+2018-04-03 23:50:04 - PHP Notice:  Undefined variable: category in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\content_top.tpl on line 18
+2018-04-03 23:50:04 - PHP Notice:  Undefined variable: category in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\content_top.tpl on line 18
+2018-04-03 23:51:03 - PHP Notice:  Undefined variable: category in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\content_top.tpl on line 18
+2018-04-03 23:51:03 - PHP Notice:  Undefined variable: category in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\content_top.tpl on line 18
+2018-04-03 23:53:27 - PHP Notice:  Undefined variable: data in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\content_top.tpl on line 1
+2018-04-03 23:53:27 - PHP Notice:  Undefined variable: category in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\content_top.tpl on line 19
+2018-04-03 23:53:27 - PHP Notice:  Undefined variable: category in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\content_top.tpl on line 19
+2018-04-03 23:54:15 - PHP Notice:  Undefined variable: categories in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\content_top.tpl on line 1
+2018-04-03 23:54:15 - PHP Notice:  Undefined variable: category in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\content_top.tpl on line 19
+2018-04-03 23:54:15 - PHP Notice:  Undefined variable: category in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\content_top.tpl on line 19
+2018-04-03 23:54:43 - PHP Notice:  Undefined variable: category in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\content_top.tpl on line 19
+2018-04-03 23:54:43 - PHP Notice:  Undefined variable: category in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\content_top.tpl on line 19
+2018-04-04 2:06:58 - PHP Notice:  Undefined index: image in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\content_top.tpl on line 16
+2018-04-04 2:06:58 - PHP Notice:  Undefined index: image in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\content_top.tpl on line 16
+2018-04-04 2:06:58 - PHP Notice:  Undefined index: image in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\content_top.tpl on line 16
+2018-04-04 2:06:58 - PHP Notice:  Undefined index: image in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\content_top.tpl on line 16
+2018-04-04 2:06:58 - PHP Notice:  Undefined index: image in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\content_top.tpl on line 16
+2018-04-04 2:06:58 - PHP Notice:  Undefined index: image in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\content_top.tpl on line 16
+2018-04-04 2:06:58 - PHP Notice:  Undefined index: image in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\content_top.tpl on line 16
+2018-04-04 2:06:58 - PHP Notice:  Undefined index: image in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\content_top.tpl on line 16
+2018-04-04 2:06:58 - PHP Notice:  Undefined index: image in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\content_top.tpl on line 16
+2018-04-04 2:08:08 - PHP Notice:  Undefined index: image in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\content_top.tpl on line 17
+2018-04-04 2:08:08 - PHP Notice:  Undefined index: image in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\content_top.tpl on line 17
+2018-04-04 2:08:08 - PHP Notice:  Undefined index: image in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\content_top.tpl on line 17
+2018-04-04 2:08:08 - PHP Notice:  Undefined index: image in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\content_top.tpl on line 17
+2018-04-04 2:08:08 - PHP Notice:  Undefined index: image in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\content_top.tpl on line 17
+2018-04-04 2:08:08 - PHP Notice:  Undefined index: image in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\content_top.tpl on line 17
+2018-04-04 2:08:08 - PHP Notice:  Undefined index: image in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\content_top.tpl on line 17
+2018-04-04 2:08:08 - PHP Notice:  Undefined index: image in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\content_top.tpl on line 17
+2018-04-04 2:08:08 - PHP Notice:  Undefined index: image in C:\Users\Lenovo_note\Documents\OpenServer\domains\okoshko.ref\catalog\view\theme\okoshko\template\common\content_top.tpl on line 17

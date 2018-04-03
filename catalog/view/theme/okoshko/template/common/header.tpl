@@ -87,7 +87,7 @@
                     <a class="menu__nav-link nav-link" href="/home">Главная</a>
                 </li>
                 <div class="menu__item dropdown-wrap btn-group">
-                    <button type="button" class="menu__btn-dropdown btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Каталог</button>
+                    <button type="button" class="menu__btn-dropdown btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Каталог </button>
                     <div class="dropdown-menu">
                         <a class="dropdown-menu__item dropdown-item" href="/otkos/calc" target="_blank">Откосы</a>
                         <div class="dropdown-menu__divider dropdown-divider"></div>                                 
