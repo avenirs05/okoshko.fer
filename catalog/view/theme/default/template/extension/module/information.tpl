@@ -8,7 +8,7 @@
         <li>
             <a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a>
         </li>
-
+       
         <li>
             <a href="<?php echo $sitemap; ?>"><?php echo $text_sitemap; ?></a>
         </li>

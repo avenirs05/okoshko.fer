@@ -2,7 +2,7 @@
 class ControllerCommonFooter extends Controller {
 	public function index() {
     $this->load->language('common/footer');
-    
+
     //Мои скрипты
     $this->document->addScript(DIR_ACT_THEME . 'js/jquery-3.1.1.min.js', 'footer');
     $this->document->addScript(DIR_ACT_THEME . 'js/bootstrap.min.js', 'footer');
@@ -31,7 +31,7 @@ class ControllerCommonFooter extends Controller {
 		$this->load->model('catalog/information');
 
 		$data['informations'] = array();
-
+   
 		foreach ($this->model_catalog_information->getInformations() as $result) {
 			if ($result['bottom']) {
 				$data['informations'][] = array(

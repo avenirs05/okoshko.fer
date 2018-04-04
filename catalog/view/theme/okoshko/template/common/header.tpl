@@ -37,12 +37,56 @@
 		<?php } ?>
 </head>
 <body>
+    
+<!-- Pushy Menu -->
+<nav class="pushy pushy-left d-lg-none" data-focus="#first-link">
+    <div class="pushy-content">
+        <ul>
+            <li class="">
+                <span class="enter">
+                    <img class="auth__enter-img auth__enter-img_mob" src="<?= DIR_ACT_THEME ?>image/lock-yellow.svg" width="12" height="12" alt="">  
+                    <a class="auth__enter-text auth__enter-text_mob" href="/user/login/" target="_blank">Вход</a>&nbsp;&nbsp;
+                </span>
+                <a class="auth__reg-text auth__reg-text_mob" href="/user/register/" target="_blank">Регистрация</a>
+            </li>
+            <li class="pushy-link"><a href="#">Главная</a></li>
+            <li class="pushy-submenu">
+                <button id="first-link">Каталог</button>
+                <ul>
+                    <?php foreach ($categories as $category): ?>
+                    <li class="pushy-link"><a href="<?= $category['href'] ?>"><?= $category['name'] ?></a></li>
+                    <?php endforeach; ?>
+                </ul>
+            </li>
+            <li class="pushy-link"><a href="#">Доставка</a></li>
+            <li class="pushy-link"><a href="#">Оплата</a></li>
+            <li class="pushy-link"><a href="#">Контакты</a></li>
+        </ul>
+    </div>
+</nav>
 
+<!-- Site Overlay Pushy Menu -->
+<div class="site-overlay d-lg-none"></div>
+
+<!-- Content Pushy Menu -->
+<div id="container" class="d-lg-none">
+    <!-- Menu Button -->
+    <button class="header-mob d-flex menu-btn">
+        &#9776; Меню
+        <span class="header-mob__phone-text ml-auto">+7 (495) 999-18-14</span>  
+        <a class="header-mob__cart-wrap" href="/cart">
+            <span class="header-mob__quantity-goods text-danger">3</span>
+            <img class="img-fluid" src="<?= DIR_ACT_THEME ?>image/cart-white.svg" width="30" height="30" alt=""> 
+        </a>      
+    </button>
+</div>
+
+<!--Header desktop-->
 <div class="header-wrap container-fluid d-none d-lg-block">
     <div class="row">
         <div class="col">
             <a class="logo" href="/">
-                <img class="logo__img" src="<?php echo DIR_ACT_THEME; ?>image/logo.png" height="90" alt="">
+                <img class="logo__img" src="<?= DIR_ACT_THEME ?>image/logo.png" height="90" alt="">
             </a>
             <div class="company-name">
                 <div class="company-name__title">Моё окошко</div>
@@ -53,7 +97,7 @@
             <div class="row">
                 <div class="auth col">
                     <span class="enter">
-                        <img class="auth__enter-img" src="<?php echo DIR_ACT_THEME; ?>image/lock.svg" width="12" height="12" alt="">  
+                        <img class="auth__enter-img" src="<?= DIR_ACT_THEME ?>image/lock.svg" width="12" height="12" alt="">  
                         <a class="auth__enter-text" href="/user/login/" target="_blank">Вход</a>&nbsp;&nbsp;
                     </span>
                     <a class="auth__reg-text" href="/user/register/" target="_blank">Регистрация</a>
@@ -61,15 +105,15 @@
                 <div class="cart col text-right">
                     <span class="cart__text">Товаров в корзине:&nbsp;</span>
                     <span class="cart__quantity">0</span>
-                    <img class="cart__img img-fluid" src="<?php echo DIR_ACT_THEME; ?>image/cart.svg" width="25" height="25" alt=""> 
+                    <img class="cart__img img-fluid" src="<?= DIR_ACT_THEME ?>image/cart.svg" width="25" height="25" alt=""> 
                 </div>
             </div>
             <div class="row">
                 <div class="connections col text-right">
-                    <img class="connections__whatsapp-icon" src="<?php echo DIR_ACT_THEME; ?>image/connect/whatsapp.svg" width="27" height="27" alt="">
-                    <img class="connections__viber-icon" src="<?php echo DIR_ACT_THEME; ?>image/connect/viber.png" width="25" height="25" alt="">
-                    <img class="connections__telegram-icon" src="<?php echo DIR_ACT_THEME; ?>image/connect/telegram.png" width="25" height="25" alt="">
-                    <img class="connections__phone-icon" src="<?php echo DIR_ACT_THEME; ?>image/connect/phone.svg" width="17" height="17" alt="">
+                    <img class="connections__whatsapp-icon" src="<?= DIR_ACT_THEME ?>image/connect/whatsapp.svg" width="27" height="27" alt="">
+                    <img class="connections__viber-icon" src="<?= DIR_ACT_THEME ?>image/connect/viber.png" width="25" height="25" alt="">
+                    <img class="connections__telegram-icon" src="<?= DIR_ACT_THEME ?>image/connect/telegram.png" width="25" height="25" alt="">
+                    <img class="connections__phone-icon" src="<?= DIR_ACT_THEME ?>image/connect/phone.svg" width="17" height="17" alt="">
                     <span class="connections__phone-text">+7 (495) 999-18-14</span>
                 </div>
                 <div class="w-100"></div>
@@ -78,7 +122,8 @@
         </div>
     </div>
 </div>
-    
+
+<!--Menu desktop-->
 <div class="container-fluid d-none d-lg-block">
     <div class="row">
         <div class="col">
@@ -87,27 +132,15 @@
                     <a class="menu__nav-link nav-link" href="/home">Главная</a>
                 </li>
                 <div class="menu__item dropdown-wrap btn-group">
-                    <button type="button" class="menu__btn-dropdown btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Каталог </button>
+                    <button type="button" class="menu__btn-dropdown btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Каталог&nbsp;</button>                    
                     <div class="dropdown-menu">
-                        <a class="dropdown-menu__item dropdown-item" href="/otkos/calc" target="_blank">Откосы</a>
-                        <div class="dropdown-menu__divider dropdown-divider"></div>                                 
-                        <a class="dropdown-menu__item dropdown-item" href="/moskit/calc" target="_blank">Москитные сетки</a>
-                        <div class="dropdown-menu__divider dropdown-divider"></div>                    
-                        <a class="dropdown-menu__item dropdown-item" href="#" target="_blank">Подоконники / Ремонтные накладки</a>
-                        <div class="dropdown-menu__divider dropdown-divider"></div>                  
-                        <a class="dropdown-menu__item dropdown-item" href="#" target="_blank">Материалы для монтажа</a>
-                        <div class="dropdown-menu__divider dropdown-divider"></div>  
-                        <a class="dropdown-menu__item dropdown-item" href="#" target="_blank">Уплотнители</a>
-                        <div class="dropdown-menu__divider dropdown-divider"></div>  
-                        <a class="dropdown-menu__item dropdown-item" href="#" target="_blank">Фурнитура / Ручки / Накладки</a>
-                        <div class="dropdown-menu__divider dropdown-divider"></div>  
-                        <a class="dropdown-menu__item dropdown-item" href="#" target="_blank">Отливы / Козырьки</a>
-                        <div class="dropdown-menu__divider dropdown-divider"></div>  
-                        <a class="dropdown-menu__item dropdown-item" href="#" target="_blank">Панели ПВХ / Сайдинг / Ламинат</a>
-                        <div class="dropdown-menu__divider dropdown-divider"></div>  
-                        <a class="dropdown-menu__item dropdown-item" href="#" target="_blank">Пиломатериалы</a>
-                        <div class="dropdown-menu__divider dropdown-divider"></div>  
-                    </div>
+                        <?php foreach ($categories as $category): ?>
+                            <a class="dropdown-menu__item dropdown-item" href="<?= $category['href'] ?>" target="_blank">
+                                <?= $category['name'] ?>
+                            </a>
+                            <div class="dropdown-menu__divider dropdown-divider"></div>  
+                         <?php endforeach; ?>
+                    </div>                   
                 </div>        
                 <li class="menu__item nav-item">
                     <a class="menu__nav-link nav-link" href="/delivery" target="_blank">Доставка</a>
@@ -121,4 +154,4 @@
             </ul>
         </div>
     </div>
-</div>
+</div>    
