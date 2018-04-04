@@ -132,7 +132,7 @@
                     <a class="menu__nav-link nav-link" href="/home">Главная</a>
                 </li>
                 <div class="menu__item dropdown-wrap btn-group">
-                    <button type="button" class="menu__btn-dropdown btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Каталог&nbsp;</button>                    
+                    <button type="button" class="menu__btn-dropdown btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Каталог&nbsp;</button>                  
                     <div class="dropdown-menu">
                         <?php foreach ($categories as $category): ?>
                             <a class="dropdown-menu__item dropdown-item" href="<?= $category['href'] ?>" target="_blank">

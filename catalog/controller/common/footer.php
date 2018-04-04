@@ -31,7 +31,7 @@ class ControllerCommonFooter extends Controller {
 		$this->load->model('catalog/information');
 
 		$data['informations'] = array();
-   
+    //d($this->model_catalog_information->getInformations());
 		foreach ($this->model_catalog_information->getInformations() as $result) {
 			if ($result['bottom']) {
 				$data['informations'][] = array(
