@@ -1,16 +1,12 @@
 <!DOCTYPE html>
-<!--[if IE]><![endif]-->
-<!--[if IE 8 ]><html dir="<?php echo $direction; ?>" lang="<?php echo $lang; ?>" class="ie8"><![endif]-->
-<!--[if IE 9 ]><html dir="<?php echo $direction; ?>" lang="<?php echo $lang; ?>" class="ie9"><![endif]-->
-<!--[if (gt IE 9)|!(IE)]><!-->
-<html dir="<?php echo $direction; ?>" lang="<?php echo $lang; ?>">
+<html lang="<?php echo $lang; ?>">
 <!--<![endif]-->
 <head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<title><?php echo $title; ?></title>
-		<base href="<?php echo $base; ?>" />
+		<base href="<?php echo $server; ?>" />
 		<?php if ($description) { ?>
 			<meta name="description" content="<?php echo $description; ?>" />
 		<?php } ?>
@@ -32,9 +28,6 @@
 		<?php foreach ($links as $link) { ?>
 			<link href="<?php echo $link['href']; ?>" rel="<?php echo $link['rel']; ?>" />
 		<?php } ?>
-		<?php foreach ($analytics as $analytic) { ?>
-			<?php echo $analytic; ?>
-		<?php } ?>
 </head>
 <body>
     
@@ -42,7 +35,7 @@
 <div class="header-wrap container-fluid d-none d-lg-block">
     <div class="row">
         <div class="col">
-            <a class="logo" href="/">
+            <a class="logo" href="<?= $server ?>">
                 <img class="logo__img" src="<?= DIR_ACT_THEME ?>image/logo.png" height="90" alt="">
             </a>
             <div class="company-name">
@@ -129,7 +122,7 @@
         <div class="col">
             <ul class="menu nav">
                 <li class="menu__item nav-item">
-                    <a class="menu__nav-link nav-link" href="/home"><?= $text_home ?></a>
+                    <a class="menu__nav-link nav-link" href="<?= $home ?>"><?= $text_home ?></a>
                 </li>
                 <div class="menu__item dropdown-wrap btn-group">
                     <button type="button" class="menu__btn-dropdown btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
