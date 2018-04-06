@@ -9,8 +9,8 @@ class ControllerCommonHome extends Controller {
 			$this->document->addLink($this->config->get('config_url'), 'canonical');
 		}    
     
-    $this->document->setKeywords($this->config->get('config_meta_keyword'));
-   
+    $this->document->setKeywords($this->config->get('config_meta_keyword'));    
+    
     $data['header'] = $this->load->controller('common/header');
     $data['content_top'] = $this->load->controller('common/content_top'); 
     $data['footer'] = $this->load->controller('common/footer');

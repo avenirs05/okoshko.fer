@@ -1,13 +1,17 @@
 <?php
 class ControllerCommonContentTop extends Controller {
 	public function index() {
+    
+    // Подзаголовок на главной
+    $this->load->model('catalog/information');
+    $informations = $this->model_catalog_information->getInformations();
+    $data['subtitle'] = strip_tags(html_entity_decode($informations[0]['description']));
+
     // Category
     $this->load->model('catalog/category');
-
     $this->load->model('catalog/product');
 
     $data['categories'] = array();
-
     $categories = $this->model_catalog_category->getCategories(0);
     
     foreach ($categories as $category) {
@@ -15,7 +19,6 @@ class ControllerCommonContentTop extends Controller {
         $data['categories'][] = array(
             'name' => $category['name'],
             'image' => $category['image'],
-            'column' => $category['column'] ? $category['column'] : 1,
             'href' => $this->url->link('product/category', 'path=' . $category['category_id'])
         );
     }
