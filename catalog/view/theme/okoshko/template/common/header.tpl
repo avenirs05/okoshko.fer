@@ -25,7 +25,7 @@
 		<?php foreach ($styles as $style) { ?>
 			<link href="<?php echo $style['href']; ?>" type="text/css" rel="<?php echo $style['rel']; ?>" media="<?php echo $style['media']; ?>" />
 		<?php } ?>		
-		<?php foreach ($links as $link) { ?>
+		<?php foreach ($links as $link) { ?>      
 			<link href="<?php echo $link['href']; ?>" rel="<?php echo $link['rel']; ?>" />
 		<?php } ?>
 </head>
@@ -99,10 +99,8 @@
         </ul>
     </div>
 </nav>
-
 <!-- Site Overlay Pushy Menu Mobile -->
 <div class="site-overlay d-lg-none"></div>
-
 <!-- Content Pushy Menu Mobile -->
 <div id="container" class="d-lg-none">
     <!-- Menu Button -->
